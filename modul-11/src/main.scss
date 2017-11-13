@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+      
+      font-family: arial, Trebuchet, sans-serif;
+      font-size:16px;
+      color:#263555;
+      background: url(../assets/img/page-bg-1x-min.png) 50% 0 no-repeat;
+     .wrapper{
+      width:1024px;
+      margin-left:auto;
+      margin-right:auto;
+      }
+     
+     .wrapper-white{
+      background: white;
+     }
+ }
+
+
+@import 'menu/_menu.scss';
+@import 'gallery/_gallery.scss';
+@import 'footer/_footer.scss';
+@import 'social-icons/_social-icons.scss';

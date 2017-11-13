@@ -1,0 +1,21 @@
+.footer{
+	display:flex; 
+	justify-content:space-between;
+	padding-bottom:50px;
+    padding-top:50px;
+    padding-right:50px;
+    background-color:#0B2F3A;
+    color:grey;
+    font-stretch: ultra-condensed;
+    padding-left:100px;
+    &:hover{
+    	color:white;
+    }
+     a{
+     	color:white;
+     }
+     ul,li{
+     	display:block;
+     }
+
+}

@@ -1,0 +1,24 @@
+main.gallery
+ div.gallery__title
+  h2 OUR GALLERY
+ div.gallery__items
+ 
+
+  mixin image(src)
+   div.gallery__img
+    img(src=src)
+    div.gallery__zoom 
+     img(src="../assets/img/zoom-in.svg")  
+
+  +image("../assets/img/img1-2x-min.png")
+  +image("../assets/img/img2-2x-min.png")
+  +image("../assets/img/img3-2x-min.png")
+  +image("../assets/img/img4-2x-min.png")
+  +image("../assets/img/img5-2x-min.png")
+  +image("../assets/img/img6-2x-min.png")
+  +image("../assets/img/img7-2x-min.png")
+  +image("../assets/img/img8-2x-min.png")
+  +image("../assets/img/img9-2x-min.png")
+
+
+   

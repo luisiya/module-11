@@ -1,0 +1,31 @@
+.footer-small{
+	background:none;
+    padding-top:.5em;
+    margin-right:18em;
+
+    .footer-small__icons{
+    display:flex;
+    margin-right:350px;     
+    transform:translate(100%, 50%);	
+     
+     .fa{
+        font-size:30px;
+        color:gray;
+        &:hover{
+        	color:white;
+        }
+       }
+     
+     li{
+     	 list-style:none;
+     	 margin-left:10px;
+     }
+     
+    
+}
+}
+
+
+
+
+
